@@ -29,8 +29,11 @@ public final class ServiceBehindUnstableNetwork implements NetworkComponent {
         /*
          * The probability should be in [0, 1[!
          */
+        if(failProbability<0 || failProbability>=1){
+            throw new IllegalArgumentException("failProbability should be more or equal than 0 and less than 1 and it is" + failProbability);
+        }
         this.failProbability = failProbability;
-        randomGenerator = new Random(randomSeed);
+        randomGenerator = new Random(randomSeed);        
     }
 
     /**
