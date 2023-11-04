@@ -48,7 +48,7 @@ public final class TestSocialNetworkUser {
          * 
          * * Adam Smith, asmith, (no age)
          */
-        final SocialNetworkUser<User> kbacon = null; //TODO
+        final SocialNetworkUser<User> kbacon = new SocialNetworkUserImpl<>("Kevin", "Bacon", "kbacon", 56);
         final SocialNetworkUser<User> dwashington = null; //TODO
         final SocialNetworkUser<User> mgladwell = null; //TODO
         final SocialNetworkUser<User> ntaleb = null; //TODO
