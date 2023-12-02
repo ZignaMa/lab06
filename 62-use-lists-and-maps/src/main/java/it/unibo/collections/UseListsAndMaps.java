@@ -39,7 +39,6 @@ public final class UseListsAndMaps {
          * from 1000 (included) to 2000 (excluded).
          */
         List<Integer> al= new ArrayList<>();
-        
         for (int i = 1000; i < 2000; i++) {
             al.add(i);
         }
