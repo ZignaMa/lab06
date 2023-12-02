@@ -104,11 +104,12 @@ public final class UseListsAndMaps {
          * population:
          *
          * Africa -> 1,110,635,000
-         *
-         * Americas -> 4,298,723,000    *
-         * Antarctica -> 742,452,000     * Asia ->        *
-         * Europe -> 38,304,000    *
-         * Oceania ->      */
+         * Americas -> 4,298,723,000
+         * Antarctica -> 742,452,000
+         * Asia -> 4,298,723,000
+         * Europe -> 38,304,000
+         * Oceania ->38304000
+         */
         Map<String, Long>continentsMap= new HashMap<>();
         continentsMap.put("Africa", AFRICA_POPULATION);
         continentsMap.put("Americas", AMERICAS_POPULATION);
