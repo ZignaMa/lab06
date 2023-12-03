@@ -7,7 +7,7 @@ import java.util.Objects;
 /**
  * This is a basic implementation of a {@link User}.
  * 
- * This class is completely mplemented and can be used as it is.
+ * This class is completely implemented and can be used as it is.
  * 
  */
 public class UserImpl implements User {
@@ -127,9 +127,9 @@ public class UserImpl implements User {
          * All fields are final and immutable: lazy initialization allowed.
          */
         if (hash == 0) {
-            hash = Objects.hash(firstName, lastName, username, age);
+            this.hash = Objects.hash(firstName, lastName, username, age);
         }
-        return hash;
+        return this.hash;
     }
 
     /**
